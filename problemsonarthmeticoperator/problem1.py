@@ -20,5 +20,6 @@ print("the final amount" , salary+incentive)
 #the incentive amount 5000.0
 #the final amount 135000.0
 
-total_bill = price_per_packet * num_packets
-print("The Total Bill Amount is:", total_bill)
+
+
+
