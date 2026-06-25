@@ -1,0 +1,7 @@
+#find the average of 5 numbers 
+n1 = float(input("enter the first number : "))
+n2 = float(input("enter the second number : "))
+n3 = float(input("enter the third number : "))
+n4 = float(input("enter the four number : "))
+n5 = float(input("enter the five number : "))
+print("the average of 5 numbers is : ", (n1+n2+n3+n4+n5)/2)
