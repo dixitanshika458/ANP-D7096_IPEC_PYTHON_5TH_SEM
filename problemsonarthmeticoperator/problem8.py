@@ -12,3 +12,6 @@ product_price = float(input("Enter the Product Price: "))
 discount_amount = float(input("Enter the Discount Amount: "))
 final_price = product_price - discount_amount
 print("The Final Price after discount is:", final_price)
+# Enter the Product Price: 1500
+# Enter the Discount Amount: 300
+# The Final Price after discount is: 1200.0

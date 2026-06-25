@@ -10,3 +10,6 @@ cost_per_gb = float(input("Enter the Cost per GB: "))
 num_gbs = int(input("Enter the Number of GBs: "))
 total_cost = cost_per_gb * num_gbs
 print("The Total Recharge Cost is:", total_cost)
+# Enter the Cost per GB: 50
+# Enter the Number of GBs: 10
+# The Total Recharge Cost is: 500.0
