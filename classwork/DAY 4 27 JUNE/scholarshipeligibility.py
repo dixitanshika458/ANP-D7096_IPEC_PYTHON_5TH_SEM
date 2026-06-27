@@ -12,10 +12,16 @@
 # Scholarship Approved
 #--------------------------------------
 percentage = float(input("Enter the student's percentage: "))
+#validating percentage input
+if percentage < 0 or percentage > 100:
+    exit("Invalid percentage." )
+#verifying whether the student is eligible for scholarship
 if percentage >= 90:
     print("Scholarship Approved")
 else:
     print("Scholarship Not Approved")
-    #---------------------------------------
-    #output
-    
+#---------------------------------------
+'''output
+student percentage = 97
+scholarship approved
+-----------------------------------------'''
